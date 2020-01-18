@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Piedra Papel Tijera</title>
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="js/datos.js"></script>
+        <script>
+        window.addEventListener('load',function(){
+            inicio();
+        });
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>Juego de piedra papel o tijera</h1>
+        </header>
+        
+        <section>
+            <div id="fichas">
+                <div id="divTitulo">
+                    <h2>Escoja</h2>
+                </div>
+                <div id="contenedorImagenes">
+                    <input type="button" value="1 vs 1" id="UnoVsUno">
+                    <input type="button" value="vs Maquina" id="vsMaquina">
+                    <!-- <div class="dviImagenes">
+                        <img src="img/lagarto.PNG" alt="">
+                    </div>
+                    <div class="dviImagenes">
+                        <img src="img/papel.PNG" alt="">
+                    </div>
+                    <div class="dviImagenes">
+                        <img src="img/piedra.PNG" alt="">
+                    </div>
+                    <div class="dviImagenes">
+                        <img src="img/spot.PNG" alt="">
+                    </div>
+                    <div class="dviImagenes">
+                        <img src="img/tijera.PNG" alt="">
+                    </div> -->
+                </div>             
+                
+            </div>
+
+            <div id='divTurno'>
+                <h3>Turno del jugador 1</h3>
+            </div>
+
+            <div id="divComandosIz">
+                <span>a: lagarto</span>
+                <span>s: paple</span>
+                <span>d: piedra</span>
+                <span>f: spock</span>
+                <span>g: tijera</span>
+            </div>
+
+            <div id="divComandosDe">
+                <span>h: lagarto</span>
+                <span>j: paple</span>
+                <span>k: piedra</span>
+                <span>l: spock</span>
+                <span>ñ: tijera</span>
+            </div>
+
+            <div id="divJugadores">
+                <ul id="ulUno">
+
+                </ul>
+            </div>
+        </section>
+        
+    </body>
+</html>

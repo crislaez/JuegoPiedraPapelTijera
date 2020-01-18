@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: #496293;
+}
+header h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:  white;
+    text-shadow: 7px 7px 3px black;
+}
+section{
+    width: 100%;
+    min-height: 650px;
+    background:  #e1e1e1;
+    float: left;
+
+}
+#fichas{
+    width: 70%;
+    height: 320px;
+    margin-left: 15%;
+    border: 1px solid black;
+    background: white;
+    margin-top: 2em;
+    box-shadow: 7px 7px 3px black;
+    float: left;
+}
+#divTitulo{
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+#divTitulo h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.dviImagenes{
+    width: 18.8%;
+    height: 250px;
+    border: 5px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 7px 7px 3px black;
+    overflow: hidden;
+    transition: all 300ms;
+    /* animation-name: animacion1; */
+    animation-duration: 300ms;
+    /* animation-iteration-count: infinite; */
+    animation-direction: alternate;
+    float: left;
+}
+@keyframes animacion1{
+   100%{
+      transform: scale(1.3,1.3);
+    }
+  }
+.dviImagenes:hover{
+    border: 5px solid blue;
+}
+.dviImagenes img{
+    width: 100%;
+    height: 100%;
+}
+#contenedorImagenes{
+    width: 100%;
+    height: 270px;
+    background: white;
+    float: left;
+}
+#contenedorImagenes input{
+    width: 40%;
+    height: 150px;
+    margin-top: 1em;
+    margin-left: 7%;
+    box-shadow: 7px 7px 3px black;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #496293;
+}
+#divComandosIz{
+    position: absolute;
+    width: 10%;
+    height: 200px;
+    margin-left: 1%;
+    margin-top: 2em;
+    border: 1px solid black;
+    background:#496293;
+    border-radius: 20px;
+    box-shadow: 7px 7px 3px black;
+}
+#divComandosIz span{
+    display: block;
+}
+#divComandosDe{
+    position: absolute;
+    width: 10%;
+    height: 200px;
+    margin-left: 89%;
+    margin-top: 2em;
+    border: 1px solid black;
+    background:#496293;
+    border-radius: 20px;
+    box-shadow: 7px 7px 3px black;
+}
+#divComandosDe span{
+    display: block;
+}
+span{
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 1em;
+}
+#divJugadores{
+    width: 70%;
+    height: 400px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 15%;
+    border: 1px solid black;
+    background: white;
+    box-shadow: 7px 7px 3px black;
+    float: left;
+}
+#divJugadores ul {
+    margin-left: 3%;
+    margin-top: 1em;
+}
+#divTurno{
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    display: none;
+    margin-left: 25%;
+    margin-top: 7em;
+    background: #B4D4F3;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 1em;
+    text-shadow: 3px 3px 3px black;
+    border-radius: 20px;
+    box-shadow: 7px 7px 3px black;
+    border: 1px solid black;
+}
+/* #divTurno h3{
+    margin-top: 2em;
+} */
